@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera pagina web</title>
+
+    <style>
+      a {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        border-radius: 10px;
+        
+        padding: 15px 15px;
+        text-decoration: none;
+      }
+      a:hover {
+        background-color: azure;
+        border: 2px solid #73c6b6;
+        color: #73c6b6;
+      }
+      .centrar {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      background: #f7cfab;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <header
+      style="
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      "
+    >
+      <h1>Mi primera página web</h1>
+    
+    </header>
+
+    <section style="text-align: center; padding: 20px">
+      <h2>Acerca de mi</h2>
+      <div style="padding-left: 100px; padding-right: 100px">
+        <p>
+          Hola esta es mi primera página web en html. Me presento mi nombre es
+          Julio Emanuel Cueva tengo 16 años y soy un estudiante de primer
+          ingreso, vengo de la zona norte del pais, del departamento de
+          Atlántida. Algunas de las cosas que me gusta hacer es: dibujar,
+          escuchar música, ver películas o series, viajar, entre otras. Mi color
+          favorito es el cian, me gustan los perros, me gustan los videojuegos,
+          me gusta el café, tambien me gustan los dias lluviosos y los
+          atardeceres.
+        </p>
+      </div>
+
+      <img
+        style="width: 400px; height: 265px"
+        src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2016/04/musica-museekly-fm.jpg?resize=1500%2C1000&quality=55&strip=all&ssl=1"
+      />
+      <img
+        style="width: 400px; height: 265px"
+        src="https://i0.wp.com/culturacolectiva.com/wp-content/uploads/2023/02/BJMJFFOJS5AJRDG7ZI6F47W3UQ-scaled-1.jpg?resize=750%2C375&ssl=1"
+      />
+      <img
+        style="width: 400px; height: 265px"
+        src="https://cdn.bolivia.com/sdi/2020/10/26/peliculas-y-series-para-disfrutar-este-halloween-en-casa-866719.webp"
+      />
+    </section>
+    <section style="text-align: center; padding: 20px">
+      <h2>Redes Sociales</h2>
+      <div class="centrar">
+        <a
+          href="https://t.me/Julio_Qb4z"
+          class="btn btn-secondary disabled"
+          tabindex="-1"
+          role="button"
+          aria-disabled="true"
+          ><svg xmlns="http://www.w3.org/2000/svg" height="31" width="30" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#74C0FC" d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/></svg></a
+        >
+        <a
+          href="https://www.instagram.com/julio_cubas25/"
+          class="btn btn-secondary disabled"
+          tabindex="-1"
+          role="button"
+          aria-disabled="true"
+          ><svg xmlns="http://www.w3.org/2000/svg" height="31" width="30" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff3d77" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a
+        >
+        <a
+          href="https://www.tiktok.com/@julemqb4z?is_from_webapp=1&sender_device=pc"
+          class="btn btn-secondary disabled"
+          tabindex="-1"
+          role="button"
+          aria-disabled="true"
+          ><svg xmlns="http://www.w3.org/2000/svg" height="31" width="30" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#251561" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg></a
+        >
+      </div>
+    </section>
+  </body>
+</html>
