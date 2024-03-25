@@ -1,0 +1,159 @@
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #3d3d3d;
+}
+
+.menu-item {
+  padding: 0 1em 0 1em;
+}
+
+.buscar {
+  border: none;
+  background: rgb(240, 239, 239);
+  padding: 0.5em 0 0.5em 0;
+  border-radius: 2em;
+  height: 2em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.buscar i {
+  width: 1em;
+  height: 1em;
+  padding: 1em;
+  border-radius: 100%;
+  left: 0;
+}
+
+.buscar i:hover {
+  background: #cccbcb;
+  cursor: pointer;
+}
+
+.buscar input {
+  border: none;
+  background: transparent;
+  color: gray;
+  padding-left: 1em;
+}
+
+.buscar input:focus {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.padding-10px {
+  padding: 10px;
+}
+
+.border-radius-100:hover {
+  border-radius: 100%;
+  background: #cccbcb;
+}
+
+.margin-left-1em {
+  margin-left: 1em;
+}
+
+.slider-frame {
+  width: 100%;
+  height: 65vh;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite ease-in-out;
+}
+
+.slider-frame li {
+  list-style: none;
+  width: 100%;
+}
+
+.slider-frame img {
+  width: 45%;
+  margin-left: 30%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: #3d3d3d;
+  color: white;
+  padding: 1em 0 1em 0;
+}
+
+/* fuentes */
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
